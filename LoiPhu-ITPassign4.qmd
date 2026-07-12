@@ -32,7 +32,7 @@ This is a practice Shopify store built for course purposes. No real payments are
 I created four collections, summarized in @tbl-collections.
 
 | Collection | Products | What it contains |
-|------------------|----------------|--------------------------------------|
+|----|----|----|
 | Engagement Rings | 6 | All six engagement-style rings: the Classic Round Halo, the Heart Prong Solitaire, and the four Sunlit fancy color rings |
 | Sunlit Collection | 4 | The signature fancy color line: Sunlit Pink, Green, Yellow, and Blue |
 | Earrings | 2 | Halo Square Diamond Studs and Fleur Pear Drop Earrings |
