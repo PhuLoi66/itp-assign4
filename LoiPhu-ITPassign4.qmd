@@ -80,6 +80,6 @@ CPP Farm Store faces the same organization question with a more complicated cata
 
 ## Appendix
 
-GitHub Repository: *\[insert GitHub repo URL here\]*
+GitHub Repository: <https://github.com/PhuLoi66/itp-assign4>
 
-GitHub Pages (Published Report): *\[insert GitHub Pages URL here\]*
+GitHub Pages (Published Report): <https://phuloi66.github.io/itp-assign4/>
