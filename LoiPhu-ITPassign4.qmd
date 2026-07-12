@@ -1,0 +1,85 @@
+---
+title: "ITP-Shopify Store - Assignment 4 - Collections and Navigation"
+author: "Phu Loi"
+date: today
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    toc-expand: true
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    theme: flatly
+    code-fold: true
+    code-overflow: wrap
+    code-tools: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+## Introduction
+
+In Assignment 3 I built out The 5th C Diamond's catalog to nine products. The problem after that assignment was organization: everything sat in one long product list, and my original Assignment 2 menu pointed to category pages I had planned but never filled, so several links led to empty pages. For this assignment I reorganized the store into four collections and rebuilt the main menu so every link leads to real products.
+
+::: callout-note
+This is a practice Shopify store built for course purposes. No real payments are processed on this site.
+:::
+
+## Collections Created
+
+I created four collections, summarized in @tbl-collections.
+
+| Collection | Products | What it contains |
+|------------------|----------------|--------------------------------------|
+| Engagement Rings | 6 | All six engagement-style rings: the Classic Round Halo, the Heart Prong Solitaire, and the four Sunlit fancy color rings |
+| Sunlit Collection | 4 | The signature fancy color line: Sunlit Pink, Green, Yellow, and Blue |
+| Earrings | 2 | Halo Square Diamond Studs and Fleur Pear Drop Earrings |
+| Statement & Occasion | 2 | Ribbon Twist Statement Ring and Fleur Pear Drop Earrings |
+
+: Collections in The 5th C Diamond store {#tbl-collections}
+
+The four collections deliberately overlap.[^1] The four Sunlit rings appear both in Engagement Rings and in their own Sunlit Collection, because a bride shopping for an engagement ring and a collector drawn to fancy color diamonds should both find them without knowing my internal organization. The Fleur earrings likewise appear in both Earrings and Statement & Occasion.
+
+[^1]: Overlapping collections are normal merchandising practice. In Shopify a product can belong to any number of collections, so collections behave more like curated storefront views than exclusive folders.
+
+::: panel-tabset
+### Collections in admin
+
+![Collections list in the Shopify admin](images/collections-admin.png)
+
+### Engagement Rings page
+
+![Engagement Rings collection on the storefront](images/collection-engagement.png)
+
+### Earrings page
+
+![Earrings collection on the storefront](images/collection-earrings.png)
+:::
+
+I built all four as manual collections, choosing the products myself. If the catalog grows, the natural next step would be converting Sunlit Collection to an automated collection using the "sunlit collection" product tag I added in Assignment 3, so future fancy color pieces join it without any manual work. At nine products, manual control was the simpler and safer choice.
+
+## Navigation Menu
+
+The main menu is: Home, Catalog, Contact, Engagement Rings, Earrings.
+
+![](images/navigation-storefront.png)The biggest change from my Assignment 2 menu is what I removed. My original menu had five product categories, but after Assignment 3 three of them (Wedding Bands, Necklaces and Pendants, Loose Lab-Grown Diamonds) contained zero products. A menu link that leads to an empty page is worse than no link, so I cut them and kept the menu to destinations that actually show products: the two strongest collections get direct links, and Catalog covers everything else in one click. I would rather have a small menu where every click works than an impressive-looking menu that dead-ends. If I expand the catalog later, the removed categories can come back.
+
+## Merchandising Logic
+
+I organized the products around how jewelry customers actually shop rather than around one single classification system. Engagement Rings serves the buyer on a mission, someone shopping for a proposal who wants every ring that could work for that moment in one place, which is why the fancy color Sunlit rings belong there alongside the classic white-diamond settings. The Sunlit Collection groups the same four rings a second time, by brand line instead of occasion, because it is the store's signature differentiator and deserves its own destination, the way real jewelers give their named collections dedicated pages. Earrings groups by product type for the customer who already knows what category they want, and Statement & Occasion groups by shopping moment, catching the gift buyer or self-purchaser. The overlap between these systems is intentional: a mixed structure meets more customers where they are than any single pure taxonomy would.
+
+## Customer Experience
+
+The navigation matches the main paths a customer might take into the store. A purposeful shopper, the engagement buyer, reaches their category in one click and immediately sees all six candidate rings with prices, plus filtering by availability and price on the collection page. A category browser clicks Earrings and sees exactly two clean options rather than scrolling past rings. A comparison shopper who wants everything uses Catalog. Nothing in the menu leads to an empty page, the menu is short enough to scan in a glance on mobile, and Contact stays one click away for the trust questions that matter in a high-consideration purchase like jewelry. The practical effect is fewer clicks to relevant products and no moment where the store looks unfinished.
+
+## CPP Farm Store Application
+
+CPP Farm Store faces the same organization question with a more complicated catalog, and I think the same mixed-logic answer applies. Some collections should follow product type, like Fresh Produce and Dairy, for shoppers who know what they came for. Some should follow occasion, like Gift Baskets and Holiday, for buyers shopping for a moment rather than an item. And at least one should follow identity, a CPP Grown collection that works the way my Sunlit Collection does: it groups the products nobody else can sell and turns the store's differentiator into a browsable destination instead of a line on the About page. The same empty-page rule applies even more strongly to a farm store, because inventory is seasonal. Automated collections based on tags or availability would let out-of-season collections shrink or hide automatically, so a customer in July never clicks into a winter citrus page full of sold-out products.
+
+## Appendix
+
+GitHub Repository: *\[insert GitHub repo URL here\]*
+
+GitHub Pages (Published Report): *\[insert GitHub Pages URL here\]*
